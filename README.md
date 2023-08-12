@@ -1,8 +1,21 @@
-# React + Vite
+# Register Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a dynamic register form with beautiful design..
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User can create account with his information.
+- After account create, user will be navigate to the login page.
+- After login with all correct information, he will be the redirect to his profile.
+- If user information or password gone wrong there will be shown error message.
+- If user give any wrong url it will shoe the error page.
+- There is an option back to home if user gone any wrong url.
+- He can also came to the home after completing the login.
+
+## 🔗Site Link
+
+https://register-form-91c28.web.app/
+
+## Used Tools & Technologies
+
+**Technologies:** React, JS, TailwindCSS, React router, firebase.
