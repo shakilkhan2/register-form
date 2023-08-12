@@ -6,6 +6,7 @@ import App from "./App";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Account from "./components/Account";
+import ErrorPage from "./components/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
  {
   path: "/my-profile",
   element:<Account/>
+ },
+ {
+  path: "*",
+  element: <ErrorPage/>
  }
 ]);
 
